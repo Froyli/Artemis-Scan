@@ -1,54 +1,55 @@
-# Artemis-Scan
-Client and Requirements
+ Artemis-Scan
+Customer and Preferences
 
-Artemis Financial is a consulting company that develops personalized financial plans for clients, including retirement, investments, and insurance. They requested secure communication mechanisms for their public web application to protect sensitive financial information. Specifically, they wanted file verification using checksums, encryption enhancements, and HTTPS implementation.
+Artemis Financial is an advising firm that prepares custom financial plans to individual clients, retirement, investment and insurance. They wanted secure communication channels in their public web application that would secure sensitive financial data. More precisely, they desired file verification with the help of checksums, strengthened encryption, and HTTPS support.
 
-What I Did Well & Importance of Secure Coding
+What I Did well and the importance of secure coding
 
-I successfully refactored the application to include checksum verification, HTTPS protocol, and certificate generation. This ensured that sensitive data could be transmitted securely. Secure coding matters because it prevents breaches, maintains trust with clients, and protects the financial stability of the company. For a financial services business like Artemis, security directly impacts customer confidence and compliance with industry regulations.
+I was able to refactor the application to support checksum validation, secure HTTP protocol and certificate generation. This helped in that sensitive data could be communicated in a secure way. Secure coding is important since it avoids breaches, builds confidence in clients and safeguards the economic welfare of the company. In the case of a financial services company like Artemis, security has direct implications on customer confidence and compliance to the laws of the industry.
 
-Challenging or Helpful Parts of the Assessment
+The difficult or good sections of the assessment
 
-The most challenging part was configuring Java Keytool certificates and integrating them with Eclipse to validate secure connections. This process helped me better understand public/private key usage and TLS configuration. The most helpful aspect was using the dependency-check Maven plugin, which provided insight into vulnerabilities in project dependencies and confirmed that my refactored code did not introduce new risks.
+Configuring Java Keytool certificates and integrating them was the most tricky thing and able to validate secure connections in Eclipse. This process opened my eyes to learn more about the public/private keys as well as TLS set-up. The most useful thing was the dependency-check Maven plugin, which gave some insight into how my project was vulnerable to dependencies and served to verify that refactoring code I did did not create new vulnerabilities.
 
-Increasing Layers of Security & Future Approaches
+Improving the Layers of Security & Approaches to the Future
 
-I increased layers of security by:
+I enhanced additional security by:
 
-Adding cryptographic checksum validation.
+Included shape checksum proofreading
 
-Implementing HTTPS communication through certificate configuration.
+The HTTPS communication through certificate implementation
 
-Running static and dependency checks to identify vulnerabilities.
+It checks the program using dependency and static tests to identify the vulnerabilities.
 
-In the future, I would use additional tools such as OWASP ZAP, SAST/DAST analyzers, and threat modeling frameworks to identify weaknesses and choose the best mitigation strategies.
+I would utilise more tools in future including OWASP ZAP, SAST/DAST tools and threat modelling frameworks that would help me find the vulnerabilities so that I can select the most appropriate mitigation measures.
 
-Verifying Functionality and Security After Refactoring
 
-To verify functionality, I ran the refactored application, executed checksum validation, and accessed the secure URL at https://localhost:8443/hash. I confirmed security by re-running the Maven dependency-check plugin and reviewing that no new vulnerabilities were introduced. Manual functional testing further validated that the software compiled and executed without errors.
+Testing functions abilities and security following refactoring
 
-Resources, Tools, and Practices Used
+To confirm that functionality is intact I tested the code by running the refactored application, performed the checksum validation and retrieved the secure address at https://localhost:8443/hash. I also verified that security was not undermined by re-executing Maven dependency-check plugin and checking that no new vulnerabilities were revealed as a result. Manual functional testing also confirmed the accuracy of the fact that the software was compiled, and running without errors.
 
-Java Keytool for certificate generation.
+Sources, Tools, and Practices in Use
 
-Maven dependency-check plugin for vulnerability scanning.
+Java Keytool in order to generate certificate.
 
-HTTPS/TLS protocols for secure communications.
+maven dependency-check plugin to perform vulnerability scanning.
 
-OWASP Top 10 guidelines for applying secure coding practices.
+Secure communications protocols include HTTPS/TLS.
 
-These resources and practices will be useful in future projects, especially when working on enterprise-level applications that require secure deployment.
+OWASP Top 10 guidelines of putting secure coding practices into place.
 
-Value to Future Employers
+These tools and techniques will be applicable in future projects and specifically in cases where there is need to deploy enterprise level applications, which require secure deployment.
 
-This project demonstrates my ability to:
+Value to future employers
 
-Identify and remediate software vulnerabilities.
+This project will show my capacity to:
 
-Implement modern encryption and secure communication protocols.
+Pick up and correct software vulnerable points.
 
-Validate software security using both manual and automated testing tools.
-Future employers will see my capability to deliver production-quality, secure applications that protect sensitive client data.
+Employ up to date encryption and secure communication standards.
+
+Test software security, both manually and through automated [in]put.
+Future employers will learn that I have the ability to provide production quality, secure applications that prevent client data exposure.
 
 Repository Link:
-https://github.com/Froyli
+(https://github.com/Froyli)
